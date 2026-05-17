@@ -858,5 +858,5 @@ export function setupAllHandlers(): void {
   setupRedistributionHandlers();
 
   handlersInitialized = true;
-  console.log('[IPC] ✅ All handlers initialized successfully');
+  console.log('[IPC] ✓ All handlers initialized successfully');
 }
